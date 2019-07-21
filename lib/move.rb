@@ -7,10 +7,9 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(first_move)
-  indexed_first_move = first_move - 1
-end
-
-def move
-  
+def input_to_index(players_input)
+  indexed_move = players_input - 1
+  def move(indexed_move)
+    board[indexed_move] = "X"
+  end
 end
