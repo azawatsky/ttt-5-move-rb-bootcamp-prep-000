@@ -13,7 +13,7 @@ def move(x,board)
 end
 
 def input_to_index(players_input,board)
-  indexed_move = players_input-1
+  indexed_move = players_input-1.to_i
   move(indexed_move,board)
   puts display_board(board)
 end
