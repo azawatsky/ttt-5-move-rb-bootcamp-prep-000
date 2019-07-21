@@ -14,6 +14,6 @@ end
 
 def input_to_index(players_input,board)
   indexed_move = players_input-1
-  move(indexed_move)
+  move(indexed_move,board)
   puts display_board(board)
 end
