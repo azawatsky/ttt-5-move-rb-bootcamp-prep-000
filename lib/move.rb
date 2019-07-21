@@ -10,8 +10,8 @@ end
 
 def input_to_index(players_input)
   indexed_move = "#{players_input}-1"
-  def move(indexed_move)
-    board[indexed_move] = "X"
-  end
-  puts display_board(board)
+#  def move(indexed_move)
+#    board[indexed_move] = "X"
+#  end
+#  puts display_board(board)
 end
