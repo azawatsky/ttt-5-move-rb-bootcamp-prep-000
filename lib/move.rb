@@ -12,5 +12,5 @@ end
 
 def move(board,indexed_move,character="X")
   board[indexed_move] = character
-  puts board
+  board
 end
