@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index
-  
+def input_to_index(first_move)
+  indexed_first_move = first_move - 1
 end
 
 def move
