@@ -8,7 +8,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(players_input,board=board)
+def input_to_index(players_input,board)
   puts board
   indexed_move = players_input-1
   puts indexed_move
