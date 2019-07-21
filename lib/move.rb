@@ -12,4 +12,5 @@ def input_to_index(players_input)
   def move(indexed_move)
     board[indexed_move] = "X"
   end
+  puts display_board(board)
 end
