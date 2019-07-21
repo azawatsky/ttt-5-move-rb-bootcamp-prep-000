@@ -8,7 +8,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def move(x)
+def move(x,board)
   board[x] = "X"
 end
 
