@@ -10,8 +10,9 @@ end
 
 def input_to_index(user_input)
   indexed_move = user_input.to_i - 1
-  def move(board,indexed_move,character="X")
-    board[indexed_move] = character
-    puts board
-  end
+end
+
+def move(board,indexed_move,character="X")
+  board[indexed_move] = character
+  puts board
 end
